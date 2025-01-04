@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Image` component with a local image URI that contains special characters, like spaces or accented characters. The image fails to load and throws no error, leading to a blank space where the image should be.  This is particularly problematic when dealing with dynamically generated URIs. 
